@@ -25,10 +25,11 @@ export default {
         class="relative flex items-center justify-center rounded-full w-14 h-14"
       >
         <span
-          class="absolute inset-0 border rounded-full border-white/50"
+          class="absolute inset-0 border rounded-full border-white"
         ></span>
         <img :src="content.avatar" class="w-12 h-12 rounded-full" alt="" />
-        <svg class="absolute bottom-0 right-0"
+        <svg
+          class="absolute bottom-0 right-0"
           width="16"
           height="16"
           viewBox="0 0 16 16"
@@ -41,13 +42,13 @@ export default {
             width="14"
             height="14"
             rx="7"
-            fill="white"
-            :stroke="index === 0 ? '#0DAABC' : '#E6B97A'"
+            fill="#08A0F7"
+            stroke="#252836"
             stroke-width="2"
           />
           <path
             d="M6.17157 8.32843L7.58579 9.74264L10.4142 6.91421"
-            :stroke="index === 0 ? '#0DAABC' : '#D9A45A'"
+            stroke="white"
             stroke-width="1.2"
             stroke-linecap="round"
             stroke-linejoin="round"

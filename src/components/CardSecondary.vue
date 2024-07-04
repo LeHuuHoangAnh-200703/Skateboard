@@ -22,7 +22,7 @@ export default {
       class="absolute top-32 right-4 w-14 h-14 rounded-full flex items-center justify-center"
     >
       <img :src="content.avatar" alt="" class="w-12 h-12 rounded-full" />
-      <span class="absolute inset-0 border border-white/50 rounded-full"></span>
+      <span class="absolute inset-0 border border-white rounded-full"></span>
     </div>
     <div class="p-5 bg-gray-800">
       <div class="flex space-x-4 items-center relative">
